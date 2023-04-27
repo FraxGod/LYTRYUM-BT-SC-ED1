@@ -3,7 +3,8 @@
 ## Installation
 Clone the repository using the following command:
 ```
-git clone <Repo>
+git clone https://github.com/FraxGod/LYTRYUM-BT-SC-ED1.git
+cd lesson-1
 ```
 
 Install the dependencies using the following command:
