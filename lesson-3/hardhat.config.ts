@@ -20,9 +20,9 @@ if (!mnemonic) {
   throw new Error("Please set your MNEMONIC in a .env file");
 }
 
-const infuraApiKey: string | undefined = process.env.INFURA_API_KEY;
-if (!infuraApiKey) {
-  throw new Error("Please set your INFURA_API_KEY in a .env file");
+const rpcApiKey: string | undefined = process.env.RPC_API_KEY;
+if (!rpcApiKey) {
+  throw new Error("Please set your RPC_API_KEY in a .env file");
 }
 
 const chainIds = {
@@ -48,7 +48,7 @@ function getChainConfig(chain: keyof typeof chainIds): NetworkUserConfig {
       jsonRpcUrl = "https://bsc-dataseed1.binance.org";
       break;
     default:
-      jsonRpcUrl = "" + infuraApiKey;
+      jsonRpcUrl = "" + rpcApiKey;
   }
   return {
     accounts: {
