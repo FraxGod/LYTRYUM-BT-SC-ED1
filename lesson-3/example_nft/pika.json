@@ -1,0 +1,27 @@
+{
+  "name": "Pikachu",
+  "description": "This is a unique digital representation of Pikachu, the iconic electric-type Pokémon from the Pokémon universe.",
+  "image": "https://ipfs.io/ipfs/QmPMZhSynRvNu43jdwVsWDTiDWnZ2Qc37jHh6PhLDZijT5",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Electric"
+    },
+    {
+      "trait_type": "Level",
+      "value": 50
+    },
+    {
+      "trait_type": "HP",
+      "value": 200
+    },
+    {
+      "trait_type": "Attack",
+      "value": 55
+    },
+    {
+      "trait_type": "Special Attack",
+      "value": 90
+    }
+  ]
+}
